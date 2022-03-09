@@ -1,0 +1,51 @@
+.select{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   padding: 10px;
+}
+
+.start_button{
+   padding: 20px;
+   display: inline-block;
+}
+
+.card{
+    height: 100vh;
+    background-image: url("https://www.taurusquest.com/public/assets/images/choosing_the_right_outsourced_accounting_service.jpg");
+    /* background-image: url("choose1.png"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.ant-select-arrow{
+    font-size: 15px;
+}
+
+.ant-select-dropdown{
+    border-radius: 15px;
+}
+
+.ant-select{
+    border-radius: 10px;
+}
+
+@media (max-width: 480px) {
+    .select{
+        /* border: 2px solid black; */
+        display: inline;
+    }
+    
+    /* .start_button{
+       border: 2px solid violet;
+    } */
+
+    .selectCat{
+        /* border: 2px solid yellow; */
+        padding: 10px;
+    }
+
+    .card{
+        height: 150vh;
+    }
+}
